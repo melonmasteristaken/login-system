@@ -2,14 +2,14 @@
 
 body {
 font-family: 'Roboto Mono', monospace;
-background-color: #f2f2f2;
+background-color: #212121; /* Dark background color */
 margin-top: 100px;
 }
 
 .login-card {
 padding: 60px;
 width: 80%;
-height: 90vh;
+height: calc(100vh - 200px); /* Calculate height to not exceed screen height */
 background-color: #333;
 color: #fff;
 margin: 0 auto 10px;
@@ -43,7 +43,7 @@ margin-bottom: 20px;
 position: relative;
 font-size: 18px;
 padding: 12px 0;
-background-color: #4CAF50;
+background-color: #4CAF50; /* Greenish-blue color */
 color: #fff;
 border: none;
 border-radius: 4px;
@@ -85,7 +85,7 @@ width: 100%;
 border: none;
 color: #fff;
 text-shadow: 0 2px rgba(0,0,0,0.1);
-background-color: #4CAF50;
+background-color: #4CAF50; /* Greenish-blue color */
 padding: 12px 0;
 font-size: 18px;
 font-family: 'Roboto Mono', monospace;
@@ -93,7 +93,7 @@ cursor: pointer;
 }
 
 .login-submit:hover {
-background-color: #3e8e41;
+background-color: #3e8e41; /* Darker greenish-blue color */
 }
 
 .login-card a {
