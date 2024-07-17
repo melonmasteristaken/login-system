@@ -12,7 +12,7 @@ body {
 .login-card {
   padding: 40px;
   width: 274px;
-  background-color: #F7F7F7;
+  background-color: #777b87;
   margin: 0 auto 10px;
   border-radius: 2px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
@@ -21,16 +21,18 @@ body {
 
 .login-card h1 {
   margin-bottom: 40px;
-  font-weight: 100;
+  font-weight: 900;
   text-align: center;
   font-size: 2.3em;
+  color: #fff;
 }
 
 .login-card p {
   margin-bottom: 40px;
-  font-weight: 100;
+  font-weight: 900;
   text-align: center;
   font-size: 1em;
+  color: #fff;
 }
 
 .login-card input[type=submit] {
@@ -42,6 +44,7 @@ body {
 
 .login-card input[type=text], input[type=password] {
   height: 44px;
+  font-weight: 900;
   font-size: 16px;
   width: 100%;
   margin-bottom: 10px;
@@ -57,6 +60,7 @@ body {
 .login-card input[type=text]:hover, input[type=password]:hover {
   border: 1px solid #b9b9b9;
   border-top: 1px solid #a0a0a0;
+  font-weight: 900;
   -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
   -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
@@ -76,22 +80,22 @@ body {
   border: 0px;
   color: #fff;
   text-shadow: 0 1px rgba(0,0,0,0.1); 
-  background-color: #4d90fe;
+  background-color: #2f427d;
 }
 
 .login-submit:hover {
   border: 0px;
   text-shadow: 0 1px rgba(0,0,0,0.3);
-  background-color: #357ae8;
+  background-color: #121d42;
 }
 
 .login-card a {
   text-decoration: none;
-  color: #666;
-  font-weight: 400;
+  color: #33ad15;
+  font-weight: 800;
   text-align: center;
   display: inline-block;
-  opacity: 0.6;
+  opacity: 0.8;
   transition: opacity ease 0.5s;
 }
 
