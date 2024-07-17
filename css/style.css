@@ -11,7 +11,8 @@ body {
 
 .login-card {
   padding: 40px;
-  width: 274px;
+  width: 70%;
+  height: 80vh;
   background-color: #777b87;
   margin: 0 auto 10px;
   border-radius: 2px;
