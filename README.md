@@ -1,4 +1,4 @@
-# Login System
+<h1>Login System</h1>
 <h3>Usage</h3>
 <p>You can implement this login system in your website.  There is a password reset and a regestration page.  Although not super secure, it is a good tool to use on GitHub Pages since it does not support PHP.  Use a free password hasher tool to hash your whole JavaScript file.</p>
 
